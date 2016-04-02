@@ -111,7 +111,6 @@
             MiscMenu = VoliMenu.AddSubMenu("Misc");
             MiscMenu.AddGroupLabel("Misc Settings");
             MiscMenu.Add("gapcloserW", new CheckBox("Anti-GapCloser W"));
-            MiscMenu.Add("Interruptr", new CheckBox("Interrupt R"));
             MiscMenu.Add("smiteActive",
               new KeyBind("Smite Active (toggle)", true, KeyBind.BindTypes.PressToggle, 'H'));
 
