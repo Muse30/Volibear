@@ -69,8 +69,8 @@
                 return;
             }
 
-            VoliMenu = MainMenu.AddMenu("KappaLissandra", "KappaLissandra");
-            VoliMenu.AddGroupLabel("Welcome to the Worst Lissandra addon!");
+            VoliMenu = MainMenu.AddMenu("Volibear", "Volibear");
+            VoliMenu.AddGroupLabel("Crazy Voli!");
             ComboMenu = VoliMenu.AddSubMenu("Combo");
             ComboMenu.AddGroupLabel("Combo Settings");
             ComboMenu.Add("UseQ", new CheckBox("Use Q"));
