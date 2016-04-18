@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{00D3D0EA-A5AB-4492-9E96-FC9B01208E63}</ProjectGuid>
+    <ProjectGuid>{B0923062-D4C8-4B61-B40F-91A9AFC32A41}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Volibea</RootNamespace>
-    <AssemblyName>Volibea</AssemblyName>
+    <RootNamespace>Shaco</RootNamespace>
+    <AssemblyName>Shaco</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -67,6 +67,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Volibear.cs" />
+    <Compile Include="Utility\Smitez.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
